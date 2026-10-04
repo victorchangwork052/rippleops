@@ -1,0 +1,6 @@
+line_id,line_name,site,weekly_capacity_hours,status
+LINE-A,Edge Control Line A,"Austin, TX",400.0,ACTIVE
+LINE-B,Gateway Line B,"Austin, TX",530.0,ACTIVE
+LINE-C,Vision Line C,"Austin, TX",350.0,ACTIVE
+LINE-D,Smart I/O Line D,"Austin, TX",800.0,ACTIVE
+LINE-F,Flex Line F,"Monterrey, MX",220.0,ACTIVE

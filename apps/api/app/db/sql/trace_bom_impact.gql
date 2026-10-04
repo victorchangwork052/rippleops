@@ -1,0 +1,19 @@
+-- Every path from a finished good down to @part_id, with the edges on each path.
+-- `e` is bound to the array of edges on the quantified path; UNNEST turns it into
+-- "parent|child|qty" strings. Edge order is not relied on: the backend re-links
+-- the chain from the finished good down (app.services.bom.order_edge_chain).
+-- Requires a BigQuery Enterprise (or Enterprise Plus) reservation.
+
+GRAPH `{dataset}.bom_graph`
+MATCH (fg:Item)
+      -[e:HAS_CHILD WHERE e.effective_from <= @as_of
+                      AND (e.effective_to IS NULL OR e.effective_to >= @as_of)]->{1,8}
+      (c:Item)
+WHERE c.item_id = @part_id
+  AND fg.item_type = 'FINISHED_GOOD'
+RETURN
+  fg.item_id AS product_id,
+  ARRAY(
+    SELECT CONCAT(x.parent_item_id, '|', x.child_item_id, '|', CAST(x.qty_per_parent AS STRING))
+    FROM UNNEST(e) AS x
+  ) AS edges

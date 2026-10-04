@@ -1,0 +1,12 @@
+supplier_id,supplier_name,country,risk_level
+SUP-NOVA,NovaChip Technologies,Taiwan,HIGH
+SUP-ATLAS,Atlas Electronics,Taiwan,LOW
+SUP-CRES,Crescent Semiconductor,Japan,LOW
+SUP-SUMM,Summit Interconnect,China,MEDIUM
+SUP-MERI,Meridian Metals,Taiwan,LOW
+SUP-BORE,Boreal Plastics,Mexico,LOW
+SUP-HELI,Helix Power Systems,China,MEDIUM
+SUP-KEST,Kestrel Optics,Japan,LOW
+SUP-PACI,Pacific Components,Mexico,LOW
+SUP-ORIO,Orion Materials,United States,LOW
+SUP-VANT,Vantage Packaging,United States,LOW

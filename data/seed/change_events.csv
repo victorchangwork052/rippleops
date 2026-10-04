@@ -1,0 +1,4 @@
+event_id,event_type,supplier_id,affected_item_id,event_date,last_time_buy_date,last_ship_date,recommended_alternative_item_id,source_document_uri,status,title,summary
+EVT-1001,SUPPLIER_PRICE_INCREASE,SUP-SUMM,CON-RJ45-SH,2026-09-18,,,,,MONITORING,Summit Interconnect connector price increase,"Summit Interconnect announced a 6% price increase on shielded RJ45 jacks from November 1, 2026."
+EVT-1002,MATERIAL_PRICE_CHANGE,,,2026-09-22,,,,,MONITORING,Copper price trending upward,LME copper is up 8% month-over-month; component suppliers signal surcharge adjustments.
+EVT-1003,FREIGHT_CHANGE,,,2026-09-24,,,,,MONITORING,Taiwan to US ocean freight increase,Carriers on the Taiwan to United States ocean lane announced a general rate increase for Q4.

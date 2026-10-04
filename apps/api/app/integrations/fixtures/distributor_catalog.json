@@ -1,0 +1,60 @@
+{
+  "provider": "Distributor catalog (mock of a DigiKey / Mouser cross-reference API)",
+  "manufacturers": {
+    "NovaChip Technologies": {"supplier_id": "SUP-NOVA", "country": "Taiwan"},
+    "Crescent Semiconductor": {"supplier_id": "SUP-CRES", "country": "Japan"},
+    "Lumen Microsystems": {"supplier_id": "EXT-LUMEN", "country": "Vietnam"},
+    "Hanshan Microelectronics": {"supplier_id": "EXT-HANS", "country": "Not disclosed"}
+  },
+  "distributors": {
+    "Northstar Distribution": {"supplier_id": "EXT-NSTAR", "country": "United States", "channel": "AUTHORIZED"},
+    "Quantum Reclaim Parts": {"supplier_id": "EXT-QRP", "country": "Singapore", "channel": "BROKER"},
+    "Hanshan Direct": {"supplier_id": "EXT-HANS", "country": "Not disclosed", "channel": "FACTORY_DIRECT"}
+  },
+  "cross_references": {
+    "MCU-X100": [
+      {"mpn": "MCU-X200", "manufacturer": "NovaChip Technologies", "match_type": "DIRECT_SUCCESSOR",
+       "pin_compatible": true, "lifecycle": "ACTIVE",
+       "notes": "Manufacturer-recommended successor. Same package and pinout; higher core current."},
+      {"mpn": "MCU-X150", "manufacturer": "Crescent Semiconductor", "match_type": "FUNCTIONAL_EQUIVALENT",
+       "pin_compatible": false, "lifecycle": "ACTIVE",
+       "notes": "Different package; requires board re-layout of the core module and a firmware port."},
+      {"mpn": "LMC-4410", "manufacturer": "Lumen Microsystems", "match_type": "FUNCTIONAL_EQUIVALENT",
+       "pin_compatible": true, "lifecycle": "ACTIVE",
+       "notes": "Same package and pinout. Peripheral register map differs, so the firmware HAL must be updated."},
+      {"mpn": "HMX-100", "manufacturer": "Hanshan Microelectronics", "match_type": "PIN_TO_PIN_CLONE",
+       "pin_compatible": true, "lifecycle": "ACTIVE",
+       "notes": "Marketed as a drop-in clone of MCU-X100. No reliability data published."}
+    ],
+    "MCU-K300": [
+      {"mpn": "MCU-K310", "manufacturer": "Crescent Semiconductor", "match_type": "DIRECT_SUCCESSOR",
+       "pin_compatible": true, "lifecycle": "ACTIVE", "notes": "Higher-performance drop-in variant."}
+    ],
+    "SOC-V700": [
+      {"mpn": "SOC-V710", "manufacturer": "Crescent Semiconductor", "match_type": "DIRECT_SUCCESSOR",
+       "pin_compatible": false, "lifecycle": "ACTIVE", "notes": "Gen 2 vision SoC with a new camera pipeline."}
+    ]
+  },
+  "offers": {
+    "MCU-X100": [
+      {"distributor": "Quantum Reclaim Parts", "unit_price": 24.80, "stock": 9000, "lead_time_days": 10,
+       "date_code": "2024-2025", "notes": "Independent broker stock; traceability documents on request."}
+    ],
+    "MCU-X200": [
+      {"distributor": "Northstar Distribution", "unit_price": 18.10, "stock": 2600, "lead_time_days": 84,
+       "date_code": "2026", "notes": "Franchised stock, full traceability."}
+    ],
+    "MCU-X150": [
+      {"distributor": "Northstar Distribution", "unit_price": 16.60, "stock": 2200, "lead_time_days": 98,
+       "date_code": "2026", "notes": "Franchised stock, full traceability."}
+    ],
+    "LMC-4410": [
+      {"distributor": "Northstar Distribution", "unit_price": 14.90, "stock": 12000, "lead_time_days": 70,
+       "date_code": "2026", "notes": "Franchised stock, full traceability."}
+    ],
+    "HMX-100": [
+      {"distributor": "Hanshan Direct", "unit_price": 11.20, "stock": 50000, "lead_time_days": 35,
+       "date_code": "2026", "notes": "Factory-direct pricing for volume orders."}
+    ]
+  }
+}

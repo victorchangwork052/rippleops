@@ -1,0 +1,11 @@
+{
+  "provider": "Sanctions and export-control screening (mock of an OpenSanctions-style API)",
+  "list_name": "Consolidated Export Control List (fictional demo data)",
+  "entities": [
+    {"entity_id": "ECL-2026-0418", "name": "Hanshan Microelectronics Co., Ltd.",
+     "aliases": ["Hanshan Microelectronics", "Hanshan Micro", "Hanshan Direct", "HMX Semiconductor"],
+     "program": "Export controls: restricted military end-use", "listed_on": "2026-06-12"},
+    {"entity_id": "ECL-2025-1102", "name": "Corvane Trading Ltd.", "aliases": ["Corvane Components"],
+     "program": "Trade sanctions", "listed_on": "2025-11-02"}
+  ]
+}

@@ -1,0 +1,231 @@
+item_id,item_name,item_type,product_family,description,base_processing_cost,unit_weight_kg,status
+MCU-X100,NovaChip MCU X100,COMPONENT,,32-bit industrial microcontroller. End-of-life announced by supplier.,0.0,0.002,EOL_ANNOUNCED
+MCU-X200,NovaChip MCU X200,COMPONENT,,Next-generation pin-compatible successor to MCU-X100.,0.0,0.002,ACTIVE
+MCU-X150,Crescent MCU X150,COMPONENT,,Second-source microcontroller; firmware port required.,0.0,0.002,ACTIVE
+MCU-R50,Atlas MCU R50,COMPONENT,,Low-power I/O microcontroller.,0.0,0.001,ACTIVE
+MCU-K300,Crescent MCU K300,COMPONENT,,Application microcontroller.,0.0,0.002,ACTIVE
+MCU-K310,Crescent MCU K310,COMPONENT,,Networking microcontroller.,0.0,0.002,ACTIVE
+SOC-V700,Crescent Vision SoC V700,COMPONENT,,Vision processing SoC.,0.0,0.004,ACTIVE
+SOC-V710,Crescent Vision SoC V710,COMPONENT,,"Vision processing SoC, Gen 2.",0.0,0.004,ACTIVE
+MEM-D4-4G,DDR4 Memory 4 Gb,COMPONENT,,Memory,0.0,0.0027,ACTIVE
+MEM-D4-8G,DDR4 Memory 8 Gb,COMPONENT,,Memory,0.0,0.0027,ACTIVE
+FLS-EM-16G,eMMC Flash 16 GB,COMPONENT,,Memory,0.0,0.0026,ACTIVE
+FLS-EM-32G,eMMC Flash 32 GB,COMPONENT,,Memory,0.0,0.0022,ACTIVE
+EEP-64K,EEPROM 64 Kb,COMPONENT,,Memory,0.0,0.0025,ACTIVE
+NOR-128M,NOR Flash 128 Mb,COMPONENT,,Memory,0.0,0.0015,ACTIVE
+PMIC-100,Power Management IC 100,COMPONENT,,Power IC,0.0,0.0007,ACTIVE
+PMIC-200,Power Management IC 200,COMPONENT,,Power IC,0.0,0.0014,ACTIVE
+LDO-3V3,LDO Regulator 3.3 V,COMPONENT,,Power IC,0.0,0.0013,ACTIVE
+LDO-1V8,LDO Regulator 1.8 V,COMPONENT,,Power IC,0.0,0.0015,ACTIVE
+BUCK-5A,Buck Converter 5 A,COMPONENT,,Power IC,0.0,0.0017,ACTIVE
+BUCK-10A,Buck Converter 10 A,COMPONENT,,Power IC,0.0,0.0008,ACTIVE
+SUP-MON,Supply Monitor,COMPONENT,,Power IC,0.0,0.0019,ACTIVE
+EFUSE-24V,eFuse 24 V,COMPONENT,,Power IC,0.0,0.001,ACTIVE
+PHY-ETH-1G,Ethernet PHY 1 Gb,COMPONENT,,Communication IC,0.0,0.0109,ACTIVE
+PHY-ETH-100M,Ethernet PHY 100 Mb,COMPONENT,,Communication IC,0.0,0.0019,ACTIVE
+XCV-RS485,RS-485 Transceiver,COMPONENT,,Communication IC,0.0,0.0035,ACTIVE
+XCV-CAN,CAN Transceiver,COMPONENT,,Communication IC,0.0,0.0064,ACTIVE
+WIFI-M2,Wi-Fi 6 M.2 Module,COMPONENT,,Communication IC,0.0,0.0067,ACTIVE
+LTE-CAT4,LTE Cat-4 Module,COMPONENT,,Communication IC,0.0,0.0114,ACTIVE
+BLE-5,Bluetooth LE 5 Module,COMPONENT,,Communication IC,0.0,0.0032,ACTIVE
+SWITCH-5P,5-Port Ethernet Switch IC,COMPONENT,,Communication IC,0.0,0.0068,ACTIVE
+CAP-0402-100N,Capacitor 0402 100 nF,COMPONENT,,Passive,0.0,0.0002,ACTIVE
+CAP-0402-1U,Capacitor 0402 1 uF,COMPONENT,,Passive,0.0,0.0009,ACTIVE
+CAP-0603-10U,Capacitor 0603 10 uF,COMPONENT,,Passive,0.0,0.0036,ACTIVE
+CAP-1206-47U,Capacitor 1206 47 uF,COMPONENT,,Passive,0.0,0.0004,ACTIVE
+CAP-EL-470U,Electrolytic Capacitor 470 uF,COMPONENT,,Passive,0.0,0.0009,ACTIVE
+CAP-EL-1000U,Electrolytic Capacitor 1000 uF,COMPONENT,,Passive,0.0,0.0024,ACTIVE
+RES-0402-10K,Resistor 0402 10 kOhm,COMPONENT,,Passive,0.0,0.0016,ACTIVE
+RES-0402-1K,Resistor 0402 1 kOhm,COMPONENT,,Passive,0.0,0.001,ACTIVE
+RES-0603-0R,Resistor 0603 0 Ohm,COMPONENT,,Passive,0.0,0.0023,ACTIVE
+RES-1206-100R,Resistor 1206 100 Ohm,COMPONENT,,Passive,0.0,0.0003,ACTIVE
+IND-PWR-4U7,Power Inductor 4.7 uH,COMPONENT,,Passive,0.0,0.0017,ACTIVE
+IND-PWR-10U,Power Inductor 10 uH,COMPONENT,,Passive,0.0,0.0005,ACTIVE
+IND-CM-CHOKE,Common-Mode Choke,COMPONENT,,Passive,0.0,0.0018,ACTIVE
+FER-0603,Ferrite Bead 0603,COMPONENT,,Passive,0.0,0.0033,ACTIVE
+DIO-TVS-24V,TVS Diode 24 V,COMPONENT,,Passive,0.0,0.0016,ACTIVE
+DIO-SCH-3A,Schottky Diode 3 A,COMPONENT,,Passive,0.0,0.0025,ACTIVE
+LED-GRN,Status LED Green,COMPONENT,,Passive,0.0,0.0039,ACTIVE
+LED-RED,Status LED Red,COMPONENT,,Passive,0.0,0.0008,ACTIVE
+XTAL-25M,Crystal 25 MHz,COMPONENT,,Passive,0.0,0.0012,ACTIVE
+XTAL-32K,Crystal 32.768 kHz,COMPONENT,,Passive,0.0,0.0031,ACTIVE
+CON-RJ45-SH,RJ45 Shielded Jack,COMPONENT,,Connector,0.0,0.0123,ACTIVE
+CON-RJ45-2X,Dual RJ45 Jack,COMPONENT,,Connector,0.0,0.0281,ACTIVE
+CON-M12-4P,M12 Connector 4-Pin,COMPONENT,,Connector,0.0,0.0151,ACTIVE
+CON-M12-8P,M12 Connector 8-Pin,COMPONENT,,Connector,0.0,0.0374,ACTIVE
+CON-TB-8P,Terminal Block 8-Pin,COMPONENT,,Connector,0.0,0.0316,ACTIVE
+CON-TB-16P,Terminal Block 16-Pin,COMPONENT,,Connector,0.0,0.0348,ACTIVE
+CON-USB-C,USB-C Receptacle,COMPONENT,,Connector,0.0,0.008,ACTIVE
+CON-DC-JACK,DC Power Jack,COMPONENT,,Connector,0.0,0.0343,ACTIVE
+CON-SMA,SMA RF Connector,COMPONENT,,Connector,0.0,0.0116,ACTIVE
+CON-HDR-40P,Header 40-Pin,COMPONENT,,Connector,0.0,0.0289,ACTIVE
+CON-FFC-30P,FFC Connector 30-Pin,COMPONENT,,Connector,0.0,0.024,ACTIVE
+CON-DB9,DB9 Connector,COMPONENT,,Connector,0.0,0.0435,ACTIVE
+CON-SFP-CAGE,SFP Cage,COMPONENT,,Connector,0.0,0.0192,ACTIVE
+CON-POE-MAG,PoE Magnetics Jack,COMPONENT,,Connector,0.0,0.0402,ACTIVE
+CON-SD-SLOT,microSD Slot,COMPONENT,,Connector,0.0,0.0108,ACTIVE
+CON-SIM,Nano-SIM Holder,COMPONENT,,Connector,0.0,0.039,ACTIVE
+PCB-CORE-6L,Core Module PCB 6-Layer,COMPONENT,,Printed Circuit Board,0.0,0.1197,ACTIVE
+PCB-MAIN-8L,Main Board PCB 8-Layer,COMPONENT,,Printed Circuit Board,0.0,0.0468,ACTIVE
+PCB-MAIN-10L,Main Board PCB 10-Layer,COMPONENT,,Printed Circuit Board,0.0,0.116,ACTIVE
+PCB-IO-4L,I/O Board PCB 4-Layer,COMPONENT,,Printed Circuit Board,0.0,0.0568,ACTIVE
+PCB-IO-6L,I/O Board PCB 6-Layer,COMPONENT,,Printed Circuit Board,0.0,0.0228,ACTIVE
+PCB-VIS-10L,Vision Module PCB 10-Layer,COMPONENT,,Printed Circuit Board,0.0,0.0935,ACTIVE
+PCB-VIS-12L,Vision Board PCB 12-Layer,COMPONENT,,Printed Circuit Board,0.0,0.0359,ACTIVE
+PCB-PSU-2L,Power Supply PCB 2-Layer,COMPONENT,,Printed Circuit Board,0.0,0.1174,ACTIVE
+PCB-PSU-4L,Power Supply PCB 4-Layer,COMPONENT,,Printed Circuit Board,0.0,0.0508,ACTIVE
+PCB-COM-6L,Communication PCB 6-Layer,COMPONENT,,Printed Circuit Board,0.0,0.0351,ACTIVE
+PCB-CAM-4L,Camera PCB 4-Layer,COMPONENT,,Printed Circuit Board,0.0,0.0344,ACTIVE
+PCB-CTL-8L,Control Board PCB 8-Layer,COMPONENT,,Printed Circuit Board,0.0,0.115,ACTIVE
+ENC-AL-S-BASE,Aluminum Enclosure Base S,COMPONENT,,Enclosure,0.0,0.8029,ACTIVE
+ENC-AL-S-COVER,Aluminum Enclosure Cover S,COMPONENT,,Enclosure,0.0,0.6857,ACTIVE
+ENC-AL-M-BASE,Aluminum Enclosure Base M,COMPONENT,,Enclosure,0.0,0.6257,ACTIVE
+ENC-AL-M-COVER,Aluminum Enclosure Cover M,COMPONENT,,Enclosure,0.0,0.5505,ACTIVE
+ENC-AL-L-BASE,Aluminum Enclosure Base L,COMPONENT,,Enclosure,0.0,0.8374,ACTIVE
+ENC-AL-L-COVER,Aluminum Enclosure Cover L,COMPONENT,,Enclosure,0.0,0.4528,ACTIVE
+ENC-RUG-BASE,Rugged Enclosure Base,COMPONENT,,Enclosure,0.0,0.8274,ACTIVE
+ENC-RUG-COVER,Rugged Enclosure Cover,COMPONENT,,Enclosure,0.0,0.814,ACTIVE
+ENC-VIS-HOUSING,Vision Housing,COMPONENT,,Enclosure,0.0,0.7964,ACTIVE
+ENC-VIS-WINDOW,Vision Optical Window,COMPONENT,,Enclosure,0.0,0.5235,ACTIVE
+ENC-PC-S,Polycarbonate Housing S,COMPONENT,,Plastic Enclosure,0.0,0.0857,ACTIVE
+ENC-PC-M,Polycarbonate Housing M,COMPONENT,,Plastic Enclosure,0.0,0.0845,ACTIVE
+ENC-DIN-RAIL-CLIP,DIN-Rail Clip,COMPONENT,,Plastic Enclosure,0.0,0.2657,ACTIVE
+ENC-GASKET-KIT,Enclosure Gasket Kit,COMPONENT,,Plastic Enclosure,0.0,0.1621,ACTIVE
+HS-AL-40,Aluminum Heatsink 40 mm,COMPONENT,,Thermal,0.0,0.1352,ACTIVE
+HS-AL-60,Aluminum Heatsink 60 mm,COMPONENT,,Thermal,0.0,0.1157,ACTIVE
+HS-CU-30,Copper Heatsink 30 mm,COMPONENT,,Thermal,0.0,0.0899,ACTIVE
+FAN-40,Cooling Fan 40 mm,COMPONENT,,Thermal,0.0,0.1271,ACTIVE
+FAN-60,Cooling Fan 60 mm,COMPONENT,,Thermal,0.0,0.1009,ACTIVE
+TIM-PAD,Thermal Interface Pad,COMPONENT,,Thermal,0.0,0.0251,ACTIVE
+HP-CU-6,Copper Heat Pipe 6 mm,COMPONENT,,Thermal,0.0,0.0315,ACTIVE
+SPREADER-CU,Copper Heat Spreader,COMPONENT,,Thermal,0.0,0.1422,ACTIVE
+XFMR-60W,Transformer 60 W,COMPONENT,,Power,0.0,0.1087,ACTIVE
+XFMR-120W,Transformer 120 W,COMPONENT,,Power,0.0,0.0318,ACTIVE
+XFMR-POE,PoE Transformer,COMPONENT,,Power,0.0,0.0142,ACTIVE
+BRIDGE-RECT,Bridge Rectifier,COMPONENT,,Power,0.0,0.0994,ACTIVE
+MOSFET-100V,MOSFET 100 V,COMPONENT,,Power,0.0,0.2106,ACTIVE
+CAP-BULK-400V,Bulk Capacitor 400 V,COMPONENT,,Power,0.0,0.1946,ACTIVE
+FUSE-5A,Fuse 5 A,COMPONENT,,Power,0.0,0.1154,ACTIVE
+RELAY-24V,Relay 24 V,COMPONENT,,Power,0.0,0.252,ACTIVE
+OPTO-ISO,Optocoupler Isolator,COMPONENT,,Power,0.0,0.0401,ACTIVE
+PFC-CTRL,PFC Controller,COMPONENT,,Power,0.0,0.2042,ACTIVE
+CMC-PWR,Power Line Choke,COMPONENT,,Power,0.0,0.1706,ACTIVE
+VARISTOR-275V,Varistor 275 V,COMPONENT,,Power,0.0,0.2108,ACTIVE
+CBL-PWR-2C,Power Cable 2-Core,COMPONENT,,Cable,0.0,0.0112,ACTIVE
+CBL-PWR-4C,Power Cable 4-Core,COMPONENT,,Cable,0.0,0.1241,ACTIVE
+CBL-IO-12C,I/O Cable 12-Core,COMPONENT,,Cable,0.0,0.0199,ACTIVE
+CBL-FFC-30,Flat Flex Cable 30-Pin,COMPONENT,,Cable,0.0,0.111,ACTIVE
+CBL-COAX-RF,RF Coaxial Cable,COMPONENT,,Cable,0.0,0.075,ACTIVE
+CBL-CAM-MIPI,MIPI Camera Cable,COMPONENT,,Cable,0.0,0.1183,ACTIVE
+CBL-GND-STRAP,Ground Strap,COMPONENT,,Cable,0.0,0.1593,ACTIVE
+CBL-ETH-INT,Internal Ethernet Cable,COMPONENT,,Cable,0.0,0.0712,ACTIVE
+WIRE-18AWG,Hook-Up Wire 18 AWG,COMPONENT,,Cable,0.0,0.1546,ACTIVE
+WIRE-22AWG,Hook-Up Wire 22 AWG,COMPONENT,,Cable,0.0,0.1319,ACTIVE
+SEN-CMOS-2MP,CMOS Image Sensor 2 MP,COMPONENT,,Optics,0.0,0.0236,ACTIVE
+SEN-CMOS-5MP,CMOS Image Sensor 5 MP,COMPONENT,,Optics,0.0,0.0189,ACTIVE
+LENS-M12-4MM,M12 Lens 4 mm,COMPONENT,,Optics,0.0,0.022,ACTIVE
+LENS-M12-8MM,M12 Lens 8 mm,COMPONENT,,Optics,0.0,0.0212,ACTIVE
+LENS-HOLDER,Lens Holder,COMPONENT,,Optics,0.0,0.0278,ACTIVE
+IR-FILTER,IR-Cut Filter,COMPONENT,,Optics,0.0,0.0052,ACTIVE
+IR-LED-850,IR LED 850 nm,COMPONENT,,Optics,0.0,0.0139,ACTIVE
+LENS-CS-12MM,CS-Mount Lens 12 mm,COMPONENT,,Optics,0.0,0.0264,ACTIVE
+SCR-M3-6,Screw M3 x 6,COMPONENT,,Mechanical,0.0,0.0167,ACTIVE
+SCR-M3-10,Screw M3 x 10,COMPONENT,,Mechanical,0.0,0.053,ACTIVE
+SCR-M4-8,Screw M4 x 8,COMPONENT,,Mechanical,0.0,0.015,ACTIVE
+STO-M3-10,Standoff M3 x 10,COMPONENT,,Mechanical,0.0,0.0483,ACTIVE
+NUT-M3,Nut M3,COMPONENT,,Mechanical,0.0,0.0486,ACTIVE
+WSH-M3,Washer M3,COMPONENT,,Mechanical,0.0,0.0011,ACTIVE
+BRKT-DIN,DIN-Rail Bracket,COMPONENT,,Mechanical,0.0,0.04,ACTIVE
+BRKT-WALL,Wall-Mount Bracket,COMPONENT,,Mechanical,0.0,0.0443,ACTIVE
+SPR-GROUND,Grounding Spring,COMPONENT,,Mechanical,0.0,0.0544,ACTIVE
+CLIP-CABLE,Cable Clip,COMPONENT,,Mechanical,0.0,0.0524,ACTIVE
+PLATE-MOUNT,Mounting Plate,COMPONENT,,Mechanical,0.0,0.044,ACTIVE
+PIN-DOWEL,Dowel Pin,COMPONENT,,Mechanical,0.0,0.0015,ACTIVE
+BOX-S,Shipping Box S,COMPONENT,,Packaging,0.0,0.1131,ACTIVE
+BOX-M,Shipping Box M,COMPONENT,,Packaging,0.0,0.2273,ACTIVE
+BOX-L,Shipping Box L,COMPONENT,,Packaging,0.0,0.0783,ACTIVE
+FOAM-S,Foam Insert S,COMPONENT,,Packaging,0.0,0.1228,ACTIVE
+FOAM-M,Foam Insert M,COMPONENT,,Packaging,0.0,0.2602,ACTIVE
+LBL-RATING,Rating Label,COMPONENT,,Packaging,0.0,0.1422,ACTIVE
+LBL-SERIAL,Serial Label,COMPONENT,,Packaging,0.0,0.1895,ACTIVE
+DOC-QSG,Quick Start Guide,COMPONENT,,Packaging,0.0,0.1588,ACTIVE
+SUB-C100,MCU Core Module,ASSEMBLY,,MCU Core Module (in-house assembly),3.2,0.0,ACTIVE
+ASM-A100,Main Controller Board,ASSEMBLY,,Main Controller Board (in-house assembly),6.5,0.0,ACTIVE
+ASM-A200,Dual-Core Controller Board,ASSEMBLY,,Dual-Core Controller Board (in-house assembly),9.8,0.0,ACTIVE
+ASM-B300,I/O Expansion Board,ASSEMBLY,,I/O Expansion Board (in-house assembly),4.1,0.0,ACTIVE
+SUB-V410,Vision Compute Module,ASSEMBLY,,Vision Compute Module (in-house assembly),5.4,0.0,ACTIVE
+ASM-V400,Vision Processing Board,ASSEMBLY,,Vision Processing Board (in-house assembly),7.2,0.0,ACTIVE
+SUB-K110,Compute Core Module K,ASSEMBLY,,Compute Core Module K (in-house assembly),3.4,0.0,ACTIVE
+ASM-K100,Compact Controller Board,ASSEMBLY,,Compact Controller Board (in-house assembly),6.1,0.0,ACTIVE
+ASM-K200,Gateway Controller Board,ASSEMBLY,,Gateway Controller Board (in-house assembly),8.9,0.0,ACTIVE
+SUB-R110,I/O Core Module,ASSEMBLY,,I/O Core Module (in-house assembly),2.1,0.0,ACTIVE
+ASM-R100,Digital I/O Board,ASSEMBLY,,Digital I/O Board (in-house assembly),3.6,0.0,ACTIVE
+ASM-R200,Analog I/O Board,ASSEMBLY,,Analog I/O Board (in-house assembly),4.2,0.0,ACTIVE
+ASM-C300,Communication Board,ASSEMBLY,,Communication Board (in-house assembly),3.8,0.0,ACTIVE
+ASM-V500,Vision Board Gen 2,ASSEMBLY,,Vision Board Gen 2 (in-house assembly),7.9,0.0,ACTIVE
+PSU-24V,24 V Power Supply Assembly,ASSEMBLY,,24 V Power Supply Assembly (in-house assembly),2.8,0.0,ACTIVE
+PSU-48V,48 V Power Supply Assembly,ASSEMBLY,,48 V Power Supply Assembly (in-house assembly),3.6,0.0,ACTIVE
+PSU-12V,12 V Power Supply Assembly,ASSEMBLY,,12 V Power Supply Assembly (in-house assembly),2.2,0.0,ACTIVE
+PSU-POE,PoE Power Module,ASSEMBLY,,PoE Power Module (in-house assembly),2.4,0.0,ACTIVE
+ENC-ASM-S,Small Enclosure Assembly,ASSEMBLY,,Small Enclosure Assembly (in-house assembly),1.6,0.0,ACTIVE
+ENC-ASM-M,Medium Enclosure Assembly,ASSEMBLY,,Medium Enclosure Assembly (in-house assembly),2.1,0.0,ACTIVE
+ENC-ASM-L,Large Enclosure Assembly,ASSEMBLY,,Large Enclosure Assembly (in-house assembly),2.8,0.0,ACTIVE
+ENC-ASM-RUG,Rugged Enclosure Assembly,ASSEMBLY,,Rugged Enclosure Assembly (in-house assembly),3.4,0.0,ACTIVE
+ENC-ASM-VIS,Vision Housing Assembly,ASSEMBLY,,Vision Housing Assembly (in-house assembly),2.6,0.0,ACTIVE
+ENC-ASM-PC,Polycarbonate Enclosure Assembly,ASSEMBLY,,Polycarbonate Enclosure Assembly (in-house assembly),1.2,0.0,ACTIVE
+HRN-PWR,Power Harness,ASSEMBLY,,Power Harness (in-house assembly),0.9,0.0,ACTIVE
+HRN-IO,I/O Harness,ASSEMBLY,,I/O Harness (in-house assembly),1.2,0.0,ACTIVE
+MOD-LTE,LTE Module Assembly,ASSEMBLY,,LTE Module Assembly (in-house assembly),2.6,0.0,ACTIVE
+MOD-WIFI,Wi-Fi Module Assembly,ASSEMBLY,,Wi-Fi Module Assembly (in-house assembly),1.8,0.0,ACTIVE
+CAM-2MP,2 MP Camera Module,ASSEMBLY,,2 MP Camera Module (in-house assembly),3.1,0.0,ACTIVE
+CAM-5MP,5 MP Camera Module,ASSEMBLY,,5 MP Camera Module (in-house assembly),3.9,0.0,ACTIVE
+P100,Edge Controller,FINISHED_GOOD,Edge Control,Edge Control product,27.63,0.0,ACTIVE
+P110,Edge Controller Lite,FINISHED_GOOD,Edge Control,Edge Control product,15.18,0.0,ACTIVE
+P120,Edge Controller Plus,FINISHED_GOOD,Edge Control,Edge Control product,49.76,0.0,ACTIVE
+P300,Edge Controller Pro,FINISHED_GOOD,Edge Control,Edge Control product,36.22,0.0,ACTIVE
+P200,Industrial Gateway,FINISHED_GOOD,Industrial Gateway,Industrial Gateway product,44.06,0.0,ACTIVE
+P210,Industrial Gateway LTE,FINISHED_GOOD,Industrial Gateway,Industrial Gateway product,32.07,0.0,ACTIVE
+P220,Rugged Industrial Gateway,FINISHED_GOOD,Industrial Gateway,Industrial Gateway product,25.54,0.0,ACTIVE
+P230,Compact Gateway,FINISHED_GOOD,Industrial Gateway,Industrial Gateway product,39.26,0.0,ACTIVE
+P500,Smart I/O Gateway,FINISHED_GOOD,Industrial Gateway,Industrial Gateway product,70.48,0.0,ACTIVE
+P410,Vision Hub,FINISHED_GOOD,Vision System,Vision System product,30.18,0.0,ACTIVE
+P420,Vision Hub Pro,FINISHED_GOOD,Vision System,Vision System product,61.61,0.0,ACTIVE
+P430,Vision Sensor Node,FINISHED_GOOD,Vision System,Vision System product,23.48,0.0,ACTIVE
+P130,Edge Controller K1,FINISHED_GOOD,Edge Control,Edge Control product,18.22,0.0,ACTIVE
+P140,Edge Controller K2,FINISHED_GOOD,Edge Control,Edge Control product,10.52,0.0,ACTIVE
+P150,Edge Logic Unit,FINISHED_GOOD,Edge Control,Edge Control product,9.15,0.0,ACTIVE
+P160,Edge Controller Mini,FINISHED_GOOD,Edge Control,Edge Control product,10.59,0.0,ACTIVE
+P170,Edge Motion Controller,FINISHED_GOOD,Edge Control,Edge Control product,20.05,0.0,ACTIVE
+P180,Edge Safety Controller,FINISHED_GOOD,Edge Control,Edge Control product,12.67,0.0,ACTIVE
+P190,Edge Controller DIN,FINISHED_GOOD,Edge Control,Edge Control product,15.24,0.0,ACTIVE
+P240,Fieldbus Gateway,FINISHED_GOOD,Industrial Gateway,Industrial Gateway product,11.21,0.0,ACTIVE
+P250,Protocol Gateway,FINISHED_GOOD,Industrial Gateway,Industrial Gateway product,14.93,0.0,ACTIVE
+P260,Cellular Router,FINISHED_GOOD,Industrial Gateway,Industrial Gateway product,11.39,0.0,ACTIVE
+P270,Edge Gateway X,FINISHED_GOOD,Industrial Gateway,Industrial Gateway product,9.98,0.0,ACTIVE
+P280,Serial Device Server,FINISHED_GOOD,Industrial Gateway,Industrial Gateway product,8.39,0.0,ACTIVE
+P290,Substation Gateway,FINISHED_GOOD,Industrial Gateway,Industrial Gateway product,14.29,0.0,ACTIVE
+P440,Vision Camera G2,FINISHED_GOOD,Vision System,Vision System product,18.62,0.0,ACTIVE
+P450,Vision Inspection Unit,FINISHED_GOOD,Vision System,Vision System product,17.69,0.0,ACTIVE
+P460,Vision Barcode Reader,FINISHED_GOOD,Vision System,Vision System product,18.7,0.0,ACTIVE
+P470,Vision Sensor G2,FINISHED_GOOD,Vision System,Vision System product,9.49,0.0,ACTIVE
+P480,Vision Line Scanner,FINISHED_GOOD,Vision System,Vision System product,9.73,0.0,ACTIVE
+P600,Smart I/O Module 8DI,FINISHED_GOOD,Smart I/O,Smart I/O product,18.58,0.0,ACTIVE
+P610,Smart I/O Module 8DO,FINISHED_GOOD,Smart I/O,Smart I/O product,14.25,0.0,ACTIVE
+P620,Smart I/O Module 16DI,FINISHED_GOOD,Smart I/O,Smart I/O product,17.77,0.0,ACTIVE
+P630,Smart I/O Module 16DO,FINISHED_GOOD,Smart I/O,Smart I/O product,12.84,0.0,ACTIVE
+P640,Smart I/O Module 4AI,FINISHED_GOOD,Smart I/O,Smart I/O product,15.28,0.0,ACTIVE
+P650,Smart I/O Module 4AO,FINISHED_GOOD,Smart I/O,Smart I/O product,12.44,0.0,ACTIVE
+P660,Smart I/O Module 8AI,FINISHED_GOOD,Smart I/O,Smart I/O product,13.64,0.0,ACTIVE
+P670,Smart I/O Module Mixed,FINISHED_GOOD,Smart I/O,Smart I/O product,11.78,0.0,ACTIVE
+P680,Smart I/O Module Relay,FINISHED_GOOD,Smart I/O,Smart I/O product,16.91,0.0,ACTIVE
+P690,Smart I/O Module Counter,FINISHED_GOOD,Smart I/O,Smart I/O product,10.0,0.0,ACTIVE
+P700,Smart I/O Remote R1,FINISHED_GOOD,Smart I/O,Smart I/O product,10.21,0.0,ACTIVE
+P710,Smart I/O Remote R2,FINISHED_GOOD,Smart I/O,Smart I/O product,11.62,0.0,ACTIVE
+P720,Smart I/O Remote R4,FINISHED_GOOD,Smart I/O,Smart I/O product,9.5,0.0,ACTIVE
+P730,Smart I/O Remote R8,FINISHED_GOOD,Smart I/O,Smart I/O product,11.95,0.0,ACTIVE
+P740,Smart I/O Remote Wireless,FINISHED_GOOD,Smart I/O,Smart I/O product,14.33,0.0,ACTIVE
+P750,Smart I/O Remote PoE,FINISHED_GOOD,Smart I/O,Smart I/O product,11.66,0.0,ACTIVE
+P760,Smart I/O Remote Compact,FINISHED_GOOD,Smart I/O,Smart I/O product,11.6,0.0,ACTIVE
+P770,Smart I/O Remote Rugged,FINISHED_GOOD,Smart I/O,Smart I/O product,14.37,0.0,ACTIVE
+P780,Smart I/O Remote Hub,FINISHED_GOOD,Smart I/O,Smart I/O product,21.91,0.0,ACTIVE
+P790,Smart I/O Remote Bridge,FINISHED_GOOD,Smart I/O,Smart I/O product,8.27,0.0,ACTIVE

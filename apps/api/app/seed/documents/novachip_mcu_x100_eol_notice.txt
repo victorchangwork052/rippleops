@@ -1,0 +1,30 @@
+NovaChip Technologies Co., Ltd.
+No. 88, Science Park Road 3, Hsinchu 300, Taiwan
+
+PRODUCT DISCONTINUATION NOTICE
+Notice No.: PDN-2026-0917
+Date of Notice: September 17, 2026
+
+To: Valued NovaChip Customers
+
+Supplier: NovaChip Technologies
+Affected Part: MCU-X100
+Product Family: MCU-X100 32-bit Industrial Microcontroller (all package options)
+Last Time Buy Date: January 30, 2027
+Last Ship Date: March 31, 2027
+Recommended Replacement: MCU-X200
+
+Reason:
+The MCU-X100 product family will be discontinued as part of
+the supplier's next-generation product transition.
+
+The recommended replacement, MCU-X200, is pin-compatible with MCU-X100.
+Customers should review firmware timing, power consumption, and any
+application-specific qualification requirements before transitioning.
+
+Last-time-buy orders are non-cancellable and non-returnable. Allocation
+will be granted on a first-come, first-served basis after January 30, 2027.
+
+Please contact your NovaChip account manager with questions.
+
+NovaChip Technologies - Product Lifecycle Management

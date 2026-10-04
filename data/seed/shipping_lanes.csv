@@ -1,0 +1,7 @@
+shipping_lane_id,origin,destination,mode,freight_rate_per_kg,currency
+TW-US-OCEAN,Taiwan,United States,Ocean,3.4,USD
+TW-US-AIR,Taiwan,United States,Air,8.2,USD
+CN-US-OCEAN,China,United States,Ocean,2.7,USD
+JP-US-OCEAN,Japan,United States,Ocean,3.1,USD
+MX-US-TRUCK,Mexico,United States,Truck,1.15,USD
+US-DOMESTIC,United States,United States,Truck,0.55,USD

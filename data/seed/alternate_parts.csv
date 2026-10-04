@@ -1,0 +1,9 @@
+source_part_id,alternative_part_id,approval_status,qualification_lead_time_days,notes,product_id
+MCU-X100,MCU-X200,APPROVED,0,Pin-compatible successor recommended by NovaChip; approved for standard configurations.,
+MCU-X100,MCU-X200,VALIDATION_REQUIRED,45,Dual-core board draws more current with MCU-X200; power-rail margin must be re-verified.,P300
+MCU-X100,MCU-X200,VALIDATION_REQUIRED,45,Vision firmware timing depends on MCU-X100 clock tree; requires re-validation.,P410
+MCU-X100,MCU-X200,VALIDATION_REQUIRED,45,Vision firmware timing depends on MCU-X100 clock tree; requires re-validation.,P420
+MCU-X100,MCU-X200,VALIDATION_REQUIRED,45,I/O expansion firmware must be re-certified for functional-safety compliance.,P500
+MCU-X100,MCU-X150,NOT_APPROVED,120,Second source from Crescent Semiconductor; requires firmware port and full qualification.,
+MCU-K300,MCU-K310,APPROVED,0,Higher-performance variant; drop-in.,
+SOC-V700,SOC-V710,VALIDATION_REQUIRED,60,Gen 2 vision SoC; new camera pipeline.,

@@ -1,0 +1,33 @@
+{
+  "provider": "Supplier news monitoring (mock of a news / web-search API)",
+  "articles": [
+    {"supplier": "NovaChip Technologies", "date": "2026-09-08", "category": "CAPACITY", "severity": "HIGH",
+     "source": "Semiconductor Ledger",
+     "headline": "NovaChip to close its 200 mm fab, accelerating end-of-life for legacy microcontrollers",
+     "summary": "NovaChip will consolidate legacy production into its 300 mm fab and has warned customers that allocation on last-time-buy orders may apply."},
+    {"supplier": "NovaChip Technologies", "date": "2026-07-21", "category": "DELIVERY", "severity": "MEDIUM",
+     "source": "Asia Supply Wire",
+     "headline": "Distributors report stretched NovaChip lead times during fab transition",
+     "summary": "Quoted lead times for NovaChip microcontrollers have risen by several weeks as wafer starts move between fabs."},
+    {"supplier": "Crescent Semiconductor", "date": "2026-08-14", "category": "CAPACITY", "severity": "POSITIVE",
+     "source": "Semiconductor Ledger",
+     "headline": "Crescent Semiconductor expands microcontroller capacity at its Kumamoto plant",
+     "summary": "The expansion adds capacity for industrial microcontrollers from the first quarter of 2027."},
+    {"supplier": "Lumen Microsystems", "date": "2026-08-30", "category": "QUALITY", "severity": "POSITIVE",
+     "source": "Industrial Electronics Weekly",
+     "headline": "Lumen Microsystems earns automotive-grade qualification for its LMC-44 family",
+     "summary": "The qualification covers extended temperature range and production part approval documentation."},
+    {"supplier": "Lumen Microsystems", "date": "2026-06-03", "category": "FINANCIAL", "severity": "MEDIUM",
+     "source": "Asia Supply Wire",
+     "headline": "Lumen Microsystems raises new funding; revenue still concentrated in two customers",
+     "summary": "Analysts note the company is growing fast but remains small, with limited second-site capacity."},
+    {"supplier": "Quantum Reclaim Parts", "date": "2026-09-02", "category": "QUALITY", "severity": "HIGH",
+     "source": "Component Integrity Bulletin",
+     "headline": "Industry alert: remarked microcontrollers traced to independent broker channels",
+     "summary": "Several manufacturers found remarked parts in broker stock this quarter. Buyers are advised to require full traceability and incoming inspection."},
+    {"supplier": "Atlas Electronics", "date": "2026-09-16", "category": "DISRUPTION", "severity": "LOW",
+     "source": "Asia Supply Wire",
+     "headline": "Typhoon briefly halts shipments from Taiwan electronics parks",
+     "summary": "Operations resumed within two days; no lasting impact on Atlas Electronics deliveries is expected."}
+  ]
+}
